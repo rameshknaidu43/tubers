@@ -27,7 +27,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-ah@b!x=jq2cfpd5__7i$$v8%s=bij75x4kw(yxvzspoi$*du)m'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['rtubers.herokuapp.com']
 
