@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-ah@b!x=jq2cfpd5__7i$$v8%s=bij75x4kw(yxvzspoi$*du)m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['rtubers.herokuapp.com']
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
@@ -95,10 +95,11 @@ WSGI_APPLICATION = 'tubers.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'lcotubers',
-        'USER' : 'postgres',
-        'PASSWORD' : '926464',
-        'HOST' : 'localhost'
+        'NAME': 'd1ckabo2s81pfp',
+        'USER' : 'admdoiwzvbafnh',
+        'PASSWORD' : 'c03cd52b3f42ab09847b4c08bbef52c438be48fbfc75988df86dadea730a76c9',
+        'HOST' : 'ec2-54-173-138-144.compute-1.amazonaws.com',
+        'PORT' : '5432'
     }
 }
 
