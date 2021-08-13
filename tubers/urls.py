@@ -26,4 +26,4 @@ urlpatterns = [
     path('contactus/', include('contactus.urls')),
     path('accounts/', include('accounts.urls')),
     path('socialaccounts/', include('allauth.urls')),
-] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
