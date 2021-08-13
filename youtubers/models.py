@@ -38,7 +38,7 @@ class Youtuber(models.Model):
 
     name = models.CharField(max_length=255)
     price = models.IntegerField()
-    photo = models.ImageField(upload_to='media/ytubers/%Y/%m')
+    photo = models.ImageField(upload_to='staticfiles/ytubers/%Y/%m')
     video_url = models.CharField(max_length=255)
     description = RichTextField()
     city = models.CharField(max_length=255)
